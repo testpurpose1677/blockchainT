@@ -1,0 +1,15 @@
+public private key 
+elliptic curver digital sign algo 
+
+chain selection 
+sybil 
+
+what is nakamoto consensus ? 
+
+51% attack 
+
+
+pow cost electricity 
+
+proof of state 
+
