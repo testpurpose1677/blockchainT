@@ -25,7 +25,7 @@ previous hash
 
 new hash ( it has to start will zeros 4 no) .. so adjust the nonce 
 
-this is called mining process 
+this is called mining process .
 
 
 
