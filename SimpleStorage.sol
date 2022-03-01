@@ -1,4 +1,4 @@
-
+// SPDX-License-Identifier: MIT
 pragma solidity ^0.6.0;
 
 contract SimpleStorage {
@@ -16,10 +16,13 @@ contract SimpleStorage {
     }
     // create a array ;
     People[] public people;
+    mapping(string => uint256) public nameToFavNum;
 
     // memory ?? what is storage after execution delete _name
     function addPerson(string memory _name , uint256 _favNum) public  {
         people.push(People({favoriteNumber : _favNum  , name : _name  }));
+        nameToFavNum[_name] = _favNum;
+
     }
     People public person1 = People({
         favoriteNumber : 999, 
