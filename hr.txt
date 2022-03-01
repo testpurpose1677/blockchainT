@@ -1,0 +1,31 @@
+install metamask 
+used https://faucets.chain.link/rinkeby
+to get rinkbey ether into my wallet 
+
+is it safe ? 
+
+https://faucets.chain.link/rinkeby 
+
+https://rinkeby.etherscan.io/address/0x6F16625A30617FDBc6A00549d88F176Db2d1fA27
+
+--> can be used to test the transaction 
+
+keccak256 it is used for hashing
+
+
+hasing structure ---> 
+
+block no 
+
+nonce -> this is to be calculated 
+
+data ( or list of transactions )
+
+previous hash 
+
+new hash ( it has to start will zeros 4 no) .. so adjust the nonce 
+
+this is called mining process 
+
+
+
